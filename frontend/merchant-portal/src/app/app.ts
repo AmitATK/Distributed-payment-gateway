@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ThemeService } from './theme.service';
 
 @Component({
   selector: 'app-root',
@@ -9,8 +8,5 @@ import { ThemeService } from './theme.service';
   styleUrl: './app.scss'
 })
 export class App {
-  protected title = 'admin-dashboard';
-   constructor(theme:ThemeService){
-    theme.init();
-  }
+  protected title = 'merchant-portal';
 }
